@@ -2,16 +2,18 @@
   "name": "js-useage",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "biome check src --write --unsafe"
   },
   "dependencies": {
-    "next": "15.0.2",
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "@ant-design/md-editor": "1.8.25",
+    "next": "14",
+    "react": "18",
+    "react-dom": "18"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
@@ -21,5 +23,6 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.14",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
